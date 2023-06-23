@@ -1,0 +1,54 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; Set the height of the container to the full viewport height */
+    flex-wrap: wrap;
+  }
+
+/* .box {
+    width: 300px;
+    height: 200px;
+    color:white;
+    padding:50px;
+    background-color: black;
+    border-radius: 25px;
+    background-image: url('flower.jpg');
+    background-size:contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    box-shadow: 10px 10px 8px #888888;
+} */
+
+.box {
+    width: 300px;
+    height: 200px;
+    color: white;
+    padding: 50px;
+    background-color: black;
+    border-radius: 25px;
+    background-image: url('flower.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    /* box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); */
+    box-shadow: 10px 10px 8px #888888;
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+  }
+  
+  .box:hover {
+    transform: scale(1.1);
+  }
+  
